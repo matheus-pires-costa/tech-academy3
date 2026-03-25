@@ -1,13 +1,10 @@
-<div class="container my-5">
-  
-    <div class="row mb-4">
-        <div class="col text-center">
-            <h1 class="titulo-letra" style="color: #a331dd; margin-top:20px;">Nossos Serviços</h1>
-            <p class="fs-5">Conheça os tratamentos que vão transformar sua pele.</p>
+<div class="servicos-container">
+    <?php foreach($listaServicos as $s): ?>
+        <div class="card-servico">
+            <h3><?php echo $s['nome_servico']; ?></h3>
+            <p><?php echo $s['descricao']; ?></p>
+            <span>R$ <?php echo number_format($s['preco'], 2, ',', '.'); ?></span>
+            <button>Agendar</button>
         </div>
-    </div>
-
-    <div class="row" id="lista-servicos">
-        </div>
-
+    <?php endforeach; ?>
 </div>
