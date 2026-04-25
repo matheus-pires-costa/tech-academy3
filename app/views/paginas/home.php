@@ -5,7 +5,7 @@
     </div>
 
     <div class="apresentacao">
-        <img src="imagens/servicos-geral.png" alt="Apresentaçao de Serviços" title="Apresentaçao de Serviços">
+        <img src="/App/public/imagens/servicos-geral.png" alt="Apresentaçao de Serviços" title="Apresentaçao de Serviços">
     </div>
 
     <div class="text-center my-4">
@@ -36,7 +36,7 @@
 	</div>
 
     <div class="text-center my-4">
-        <a href="sobre" class="btn btn-roxo btn-lg fw-bold" role="button" class="btn-roxo">
+        <a href="index.php?param=sobre" class="btn btn-roxo btn-lg fw-bold" role="button" class="btn-roxo">
             Saiba Mais
             <i class="bi bi-search ms-2"></i>
         </a>
@@ -62,20 +62,20 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active" data-bs-interval="3000">
-                <a data-fslightbox="prova-social" href="imagens/provasocial2.png">
-                    <img src="imagens/provasocial2.png" class="d-block w-100" alt="Antes e depois 1">
+                <a data-fslightbox="prova-social" href="/App/public/imagens/provasocial2.png">
+                    <img src="/App/public/imagens/provasocial2.png" class="d-block w-100" alt="Antes e depois 1">
                 </a>
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <a data-fslightbox="prova-social" href="imagens/provasocial1.png">
-                    <img src="imagens/provasocial1.png" class="d-block w-100" alt="Antes e depois 2">
+                <a data-fslightbox="prova-social" href="/App/public/imagens/provasocial1.png">
+                    <img src="/App/public/imagens/provasocial1.png" class="d-block w-100" alt="Antes e depois 2">
                 </a>
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <a data-fslightbox="prova-social" href="imagens/provasocial3.png">
-                    <img src="imagens/provasocial3.png" class="d-block w-100" alt="Antes e depois 3">
+                <a data-fslightbox="prova-social" href="/App/public/imagens/provasocial3.png">
+                    <img src="/App/public/imagens/provasocial3.png" class="d-block w-100" alt="Antes e depois 3">
                 </a>
             </div>
 

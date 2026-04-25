@@ -8,7 +8,7 @@ class Servico {
     private $conn;
     private $table_name = "servicos";
 
-    // Atributos privados (Encapsulamento)
+
     private $id;
     private $nome_servico;
     private $preco;
@@ -18,9 +18,8 @@ class Servico {
         $this->conn = $database->getConnection();
     }
 
-    // Método que substitui a leitura do JSON
     public function listarTodos() {
-        $query = "SELECT id, nome_servico, descricao, preco FROM " . $this->table_name;
+        $query = "SELECT id, nome_servico, descricao, preco, imagem FROM " . $this->table_name;
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
         

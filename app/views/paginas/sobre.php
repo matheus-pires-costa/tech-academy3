@@ -1,7 +1,7 @@
 <div class="container my-5">
     <div class="row align-items-center">
         <div class="col-md-6 text-center" style="margin-top:20px;">
-            <img src="imagens/chay.jpeg" alt="Foto de Nathalia Chayane" title="Foto de Nathalia Chayane" class="img-fluid rounded-circle"
+            <img src="/App/public/imagens/chay.jpeg" alt="Foto de Nathalia Chayane" title="Foto de Nathalia Chayane" class="img-fluid rounded-circle"
                 style="max-width: 300px; height: auto; border: 2px solid #FFD700;">
         </div>
 

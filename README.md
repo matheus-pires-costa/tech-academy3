@@ -1,15 +1,22 @@
-# tech-academy2
-Este repositório se trata de um trabalho avaliativo para a faculdade onde envolve a criação de uma página dinâmica feita em PHP para um comércio local usando bootstrap e SCSS para estilizar.
-Também é feito o uso de JS para a lógica do site e validação do formulário.
+# CN Estética - Sistema de Agendamento
 
-## Link do site:
-https://cnestetica.infinityfreeapp.com//home
+Este projeto foi desenvolvido como parte do curso de **TADS**. Trata-se de uma aplicação web para gestão de serviços e agendamentos de uma clínica de estética, utilizando arquitetura MVC e boas práticas de desenvolvimento backend.
 
-## Link do GitHub:
-https://github.com/matheus-pires-costa/tech-academy2/tree/main
+## Propósito do Sistema
+O propósito deste sistema de gestão para a clínica CN Estética é centralizar e automatizar o fluxo de atendimento desde o primeiro contato do cliente até a persistência das informações no banco de dados, garantindo que nenhum agendamento se perca e que a clínica tenha controle total sobre a demanda de serviços. O projeto funciona sob a arquitetura Model-View-Controller, onde o usuário interage com uma interface dinâmica desenvolvida em Bootstrap para selecionar procedimentos específicos e escolher períodos de atendimento personalizados. Assim que o botão de agendamento é acionado, o controlador intercepta esses dados e os valida antes de delegar ao modelo a responsabilidade de realizar o registro seguro no MySQL utilizando a biblioteca PDO, o que impede vulnerabilidades como SQL Injection. A estrutura robusta do banco de dados assegura a integridade referencial por meio de chaves estrangeiras, permitindo que cada solicitação seja vinculada de forma precisa ao catálogo de serviços oferecido pela clínica, resultando em um feedback imediato de sucesso para o usuário e na organização otimizada da agenda administrativa.
 
-## Descrição Do Site e da Persona
-O comércio escolhido se trata de uma clínica de estética onde a persona são mulheres de 20 a 45 anos, conectadas e vaidosas, que buscam no celular soluções visuais e práticas para melhorar a pele e o bem-estar.
-Elas decidem a compra baseadas em provas sociais de "antes e depois" e priorizam a agilidade do agendamento direto via WhatsApp para elevar sua autoestima.
-Elas buscam se sentirem melhores com sua aparência, terem autoestima,
-Serem mais confiantes de si mesma, sejam elas pessoas que já fizeram tratamento estético antes ou não.
+## LINKS:
+Diagrama(DER) do projeto: https://drive.google.com/file/d/1k-U8_YYmm-16grE9W9YRr_hqzB20cor4/view?usp=sharing
+
+Site: http://cnestetica.infinityfreeapp.com/?i=1
+
+Repositorio do GitHub:https://github.com/matheus-pires-costa/tech-academy3
+
+
+## Tecnologias Utilizadas
+**Linguagem:** PHP
+**Arquitetura:** MVC
+**Banco de Dados:** MySQL
+**Persistência:** PDO
+**Frontend:** HTML5, CSS3, Bootstrap
+**Ferramenta de Modelagem:** MySQL Workbench
